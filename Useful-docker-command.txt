@@ -1,0 +1,11 @@
+docker-compose build
+docker-compose up -d <services> <service>
+docker-compose down
+docker-compose exec <container_name> bash
+docker ps
+docker images
+docker start
+
+https://stackoverflow.com/questions/50918980/docker-virtualhost-outside-container
+https://stackoverflow.com/questions/55939079/running-virtual-hosts-in-apache-docker-container
+https://stackoverflow.com/questions/39988844/docker-compose-up-vs-docker-compose-up-build-vs-docker-compose-build-no-cach
