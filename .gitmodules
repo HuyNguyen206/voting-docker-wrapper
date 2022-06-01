@@ -1,0 +1,3 @@
+[submodule "voting-app-local"]
+	path = voting-app-local
+	url = https://github.com/HuyNguyen206/voting-app.git

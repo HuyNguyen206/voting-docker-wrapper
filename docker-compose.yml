@@ -58,7 +58,7 @@ services:
         networks:
             - laravel
     elasticsearch:
-        image: elasticsearch:8.2.2
+        image: elasticsearch:8.2.1
         container_name: elasticsearch
         restart: always
         ports:
@@ -76,7 +76,7 @@ services:
         volumes:
             -   elasticsearch-volume:/usr/share/elasticsearch/data
     kibana:
-        image: kibana:8.2.2
+        image: kibana:8.2.1
         restart: always
         ports:
             - '5601:5601'
